@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuHome"
+        android:icon="@drawable/home"
+        android:title="@string/home"/>
+
+    <item
+        android:id="@+id/menuUser"
+        android:icon="@drawable/user"
+        android:title="@string/user"/>
+    <item
+        android:id="@+id/tab"
+        android:title=""
+        android:enabled="false"/>
+
+
+    <item
+        android:id="@+id/menuComment"
+        android:icon="@drawable/comment"
+        android:title="@string/comment"/>
+
+    <item
+        android:id="@+id/menuHeart"
+        android:icon="@drawable/heart"
+        android:title="@string/heart"/>
+</menu>
